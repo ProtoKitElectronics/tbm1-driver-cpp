@@ -31,3 +31,4 @@ jobs:
           BRANCH: cpp
           FOLDER: lib
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${GITHUB_REF##*/}
